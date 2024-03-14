@@ -4,14 +4,14 @@
 }
 .header{
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-gap: 5rem;
 }
 
 .headertext{
-    max-width: 700px;
-    position: relative;
-    right: -2rem;
-    top: 4rem;
+    grid-column: 1/7;
 }
 
 h2{
@@ -23,11 +23,15 @@ h5{
     font-weight: lighter;
     padding: 1rem 0;
 }
-.arrow>img{
-    position: relative;
-    left: 42rem;
-    bottom: 10rem;
-}
 .header_tagline{
     color: black;
 }
+.arrow{
+    grid-column: 7/8;
+    align-self: self-end;
+}
+@media only screen and (max-width: 600px) {
+    .arrow{
+        display: none;
+    }
+  }

@@ -3,13 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     max-width: 1280px;
-    margin: -7rem auto 3rem;
+    margin: 3rem auto;
     justify-items: center;
     z-index: 2;
 }
 .tool img{
-    width: 380px;
-    height: auto;
+    max-width: 380px;
+    max-height: auto;
     margin-top: 1rem;
     border-radius: 1rem;
     border: solid black 2px;

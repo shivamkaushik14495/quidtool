@@ -8,13 +8,14 @@ h5,li{
 }
 .footernav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     padding: 5rem 0;
 }
 .footernavlinks{
     text-decoration: none;
     list-style-type: none;
-    padding: .5rem 0;
+    margin: .5rem 0;
+    padding: 0 1.5rem;
 }
 .footerHeading{
     text-align: center;
@@ -22,8 +23,9 @@ h5,li{
     padding-top: 0rem;
 }
 .footerlinks{
-    padding: 0 10rem 0;
     text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 .emailbutton , .emailbox{
     border: white solid 2px;
@@ -37,4 +39,15 @@ h5,li{
 .drop-email{
     margin: auto auto;
     justify-content: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
+@media only screen and (max-width: 600px) {
+    .footernav{
+        display: block;
+    }
+    .emailbutton , .emailbox{
+        padding: .5rem 1.5rem;
+        margin: auto;
+    }
+  }

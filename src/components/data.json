@@ -1,8 +1,8 @@
-const data = [
+{
+    "tooldata" : [
     {
-        "id" : 1,
-        "tooName":'Invoice Generator',
+        "id" : 1, "tooName":"Invoice Generator",
         "imglink":"./Receipt-Generator.jpg",
         "toollink":""
     }
-]
+]}

@@ -3,15 +3,14 @@
 }
 .nav{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(10 , 1fr);
     align-items: center;
-    margin: 1.5rem auto 0;
+    margin: 1.5rem auto;
     max-width: 1280px;
 }
 .navs{
     text-decoration: none;
     list-style-type: none;
-    margin: 0 1.5rem;
 }
 a{
     text-decoration: none;
@@ -21,11 +20,6 @@ a{
     height: 3rem;
     width: auto;
     align-content: left;
-}
-.menu>ul{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
 #button{
     color: white;
@@ -39,3 +33,22 @@ a{
     border: solid 2px #456CFA;
     background-color: white;
 }
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.menu{
+    grid-column-start: 8;
+    grid-column-end: 11;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+  }
