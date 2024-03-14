@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: Urbanist 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.headertext{
+    max-width: 700px;
+    position: relative;
+    right: -2rem;
+    top: 4rem;
+}
+
+h2{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+h5{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding: 1rem 0;
+}
+.arrow>img{
+    position: relative;
+    left: 42rem;
+    bottom: 10rem;
+}
+.header_tagline{
+    color: black;
+}

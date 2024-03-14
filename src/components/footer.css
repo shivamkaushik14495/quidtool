@@ -1,0 +1,40 @@
+
+.footer{
+    background-color: black;
+    margin: 0;
+}
+h5,li{
+    color: white;
+}
+.footernav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem 0;
+}
+.footernavlinks{
+    text-decoration: none;
+    list-style-type: none;
+    padding: .5rem 0;
+}
+.footerHeading{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0rem;
+}
+.footerlinks{
+    padding: 0 10rem 0;
+    text-align: left;
+}
+.emailbutton , .emailbox{
+    border: white solid 2px;
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: white;
+}
+.emailbutton{
+    color: white;
+}
+.drop-email{
+    margin: auto auto;
+    justify-content: center;
+}
