@@ -35,3 +35,20 @@ h5{
         display: none;
     }
   }
+  @media only screen and (max-width: 350px) {
+    h2{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    h5{
+        font-size: 1rem;
+        font-weight: lighter;
+        padding: 1rem 0;
+    }
+    .header{
+        margin: 2rem auto;
+        max-width: 350px;
+        display: block;
+        padding: 0 1rem;
+    }
+  }

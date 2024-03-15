@@ -43,11 +43,26 @@ h5,li{
     grid-column-end: 6;
 }
 @media only screen and (max-width: 600px) {
-    .footernav{
+    .footerlinks{
         display: block;
     }
     .emailbutton , .emailbox{
         padding: .5rem 1.5rem;
         margin: auto;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .footerlinks{
+        display: block;
+        padding: none;
+        grid-column:1/2;
+        text-align: center;
+    }
+    .emailbutton , .emailbox{
+        padding: .5rem .8rem;
+        margin: auto;
+    }
+    .footernav{
+        display: block;
     }
   }
