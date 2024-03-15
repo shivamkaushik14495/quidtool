@@ -35,7 +35,7 @@ h5{
         display: none;
     }
   }
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 480px) {
     h2{
         font-size: 3rem;
         font-weight: bolder;

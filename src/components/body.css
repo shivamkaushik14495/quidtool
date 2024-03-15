@@ -14,10 +14,11 @@
     border-radius: 1rem;
     border: solid black 2px;
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 1024px) {
     .tool img{
         width: 250px;
         height: auto;
+        margin: .5rem .5rem;
     }
     .tools{
         display: ruby;

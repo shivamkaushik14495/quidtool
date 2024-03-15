@@ -51,7 +51,7 @@ h5,li{
         margin: auto;
     }
   }
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 480px) {
     .footerlinks{
         display: block;
         padding: none;
@@ -64,5 +64,7 @@ h5,li{
     }
     .footernav{
         display: block;
+        max-width: 350px;
+        margin: auto;
     }
   }

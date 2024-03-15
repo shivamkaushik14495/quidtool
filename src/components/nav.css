@@ -52,3 +52,11 @@ li{
         display: none;
     }
   }
+  @media only screen and (max-width: 480px) {
+    .nav{
+        max-width: 350px;
+    }
+    .drop-email{
+        display: flex;
+    }
+  }
