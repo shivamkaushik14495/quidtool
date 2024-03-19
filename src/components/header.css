@@ -5,6 +5,7 @@
 .header{
     max-width: 1280px;
     margin: 4rem auto;
+    padding: 0 2rem;
     display: grid;
     grid-template-columns: repeat(10 , 1fr);
     grid-gap: 5rem;
@@ -30,7 +31,13 @@ h5{
     grid-column: 7/8;
     align-self: self-end;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
+    .header{
+        max-width: 900px;
+    }
+  }
+
+@media only screen and (max-width: 770px) {
     .arrow{
         display: none;
     }
@@ -52,3 +59,4 @@ h5{
         padding: 0 1rem;
     }
   }
+  
